@@ -1,6 +1,6 @@
 export const fetchParts = () => {
     return(dispatch) => {
-        fetch('http://localhost:3001/parts')
+        fetch('https://robot-maker-api.herokuapp.com/parts')
         .then(resp => resp.json())
         .then(parts => dispatch({ type: 'FETCH_PARTS', payload: parts}))
     }
@@ -9,7 +9,7 @@ export const fetchParts = () => {
 
 export const addPart = part => {
     return dispatch => {
-          fetch('http://localhost:3001/parts', {
+          fetch('https://robot-maker-api.herokuapp.com/parts', {
         method: 'POST',
         body:JSON.stringify(part),
         headers: { 'Content-Type': 'application/json'}
