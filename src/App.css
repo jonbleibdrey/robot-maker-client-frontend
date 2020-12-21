@@ -1,0 +1,165 @@
+body {
+    background-color: #E86F68;
+}
+
+
+img { 
+
+    height: 400px;
+    width: 300px;
+    border-radius: 25px;
+    box-shadow: 2px 1px 10px rgb(83, 83, 83);
+    
+    
+   
+}
+.app{
+   flex-direction: row | row-reverse | column | column-reverse;
+}
+.forms{
+    background-color: #E2CD6D;
+    padding: 50px;
+    box-shadow: 2px 1px 10px rgb(83, 83, 83);
+    margin: auto;
+    width: auto;
+    border-radius: 25px;
+}
+
+.home{
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(113, 174, 224) ;
+    box-shadow: 2px 1px 10px rgb(83, 83, 83);
+    border-radius: 25px;
+    padding: 20px;
+    width: auto;
+}
+.hometext{
+    background-color: white ;
+    padding: 20px;
+    box-shadow: 2px 1px 10px rgb(83, 83, 83);
+}
+
+.choose{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.list{
+    font-family: 'Roboto Mono', monospace;
+    box-shadow: 2px 1px 10px rgb(83, 83, 83);
+    background-color:  #E2CD6D;
+    margin-top: 30px;
+    padding: 20px;
+    width: auto;
+    border-radius: 25px;
+}
+
+.partrobotlist{
+    padding: 20px;
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 25px;
+    display: inline-block;
+    box-shadow: 2px 1px 10px rgb(83, 83, 83);
+   
+    
+   
+    
+    
+}
+
+.partrobotcontainer{
+    background-color: rgb(113, 174, 224) ;
+    box-shadow: 2px 1px 10px rgb(83, 83, 83);
+    padding: 20px;
+    width: auto;
+    
+    border-radius: 25px;
+}
+
+.createbox{
+    background-color: rgb(113, 174, 224) ;
+    padding: 20px;
+    box-shadow: 2px 1px 10px rgb(83, 83, 83);
+    border-radius: 25px;
+}
+
+.textbox{
+    background-color: white ;
+    padding: 20px;
+    width: 200px;
+    height: 130px;
+    box-shadow: 2px 1px 10px rgb(83, 83, 83);
+    border-radius: 25px;
+}
+
+.containertext{
+    background-color: white ;
+    box-shadow: 2px 1px 10px rgb(83, 83, 83);
+    
+   
+}
+
+.robot1{
+    background-color:white ;
+    padding: 20px;
+    margin: 30px 200px 1px;
+
+}
+
+.singlepart{
+    font-family: 'Roboto Mono', monospace;
+    background-color:rgb(113, 174, 224) ;
+    padding: 50px;
+    height: 300px;
+    width: auto;
+    box-shadow: 2px 1px 10px rgb(83, 83, 83);
+    border-radius: 25px;
+}
+
+.singletextpart{
+    background-color:white;
+    padding: 25px;
+  
+    box-shadow: 2px 1px 10px rgb(83, 83, 83);
+}
+
+.infotext{
+    background-color:#E2CD6D ;
+    padding: 25px;
+    width: 150px;
+    box-shadow: 2px 1px 10px rgb(83, 83, 83);
+    border-radius: 25px;
+}
+
+.singlerobot{
+    font-family: 'Roboto Mono', monospace;
+    background-color:rgb(113, 174, 224) ;
+    box-shadow: 2px 1px 10px rgb(83, 83, 83);
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.singletextrobot{
+    background-color:white;
+    padding: 25px;
+  
+    box-shadow: 2px 1px 10px rgb(83, 83, 83);
+}
+
+.footer{
+    background-color:white;
+    font-family: 'Roboto Mono', monospace;
+    padding: 2px;
+    border-radius: 25px;
+    width: 500px;
+    box-shadow: 2px 1px 10px rgb(83, 83, 83);
+    margin: auto;
+}
+
+.footerinfo{
+    margin: 30px 200px 1px;
+}
+.foottext{
+    margin: 30px 175px 1px;
+}
