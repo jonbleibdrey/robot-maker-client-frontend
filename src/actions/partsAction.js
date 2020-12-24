@@ -9,7 +9,7 @@ export const fetchParts = () => {
 
 export const addPart = part => {
     return dispatch => {
-          fetch('https://robot-maker-api.herokuapp.com/parts', {
+        fetch('https://robot-maker-api.herokuapp.com/parts', {
         method: 'POST',
         body:JSON.stringify(part),
         headers: { 'Content-Type': 'application/json'}

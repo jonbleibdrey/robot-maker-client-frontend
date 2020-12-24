@@ -10,12 +10,12 @@ const Footer = () => {
       
         <div className='footer'>
                <h3 className='foottext'>BuildARobot.com</h3>
-            <footer className='footerinfo'>
-            <FacebookIcon />
-            <InstagramIcon />
-            <TwitterIcon />
-            <YouTubeIcon />
-            </footer>
+                <footer className='footerinfo'>
+                    <FacebookIcon />
+                    <InstagramIcon />
+                    <TwitterIcon />
+                    <YouTubeIcon />
+                </footer>
         </div>
         
     )

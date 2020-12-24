@@ -16,19 +16,18 @@ export class App  extends Component {
         this.props.fetchRobot()
         this.props.fetchParts()
     }
+
     render(){
-    return (
-        
-        <div className='app'>
-            <NavBar />
-            <br/>
-            <Router />
-            <br/>
-           <Footer/>
-           
-        </div>
+        return (
+            <div className='app'>
+                <NavBar />
+                <br/>
+                <Router />
+                <br/>
+                <Footer/>
+            </div>
       
-    )
+        )
     }
 }
 

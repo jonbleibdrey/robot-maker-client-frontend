@@ -7,7 +7,7 @@ export class Liker extends Component {
 
     onLike = (e) =>{
         this.setState({
-            liker: this.state.liker + 1
+        liker: this.state.liker + 1
         })
     }
 

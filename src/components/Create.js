@@ -20,26 +20,21 @@ const link = {
 const Create = () => {
     return (
         <Grid container direction="column"  justify="center" alignItems="center">
-        <div className='createbox'>
-            <div className='textbox'>
-            <h2 class="far fa-plus-square" >Create Robot</h2>
-            <NavLink to="/Robots" exact style={link} className="fas fa-robot">GO BACK TO ROBOTS</NavLink>
+            <div className='createbox'>
+                <div className='textbox'>
+                    <h2 class="far fa-plus-square" >Create Robot</h2>
+                        <NavLink to="/Robots" exact style={link} className="fas fa-robot">GO BACK TO ROBOTS</NavLink>
+                </div>
+                <RobotsForm/>
+                <br/>
+                <br/>
+                <div className='textbox'>
+                    <h2 class="far fa-plus-square" >Create Part</h2> 
+                    <NavLink to="/Parts" exact style={link} className="fas fa-wrench">GO BACK TO PARTS</NavLink>
+                </div> 
+                <PartsForm/>
+                <br/>
             </div>
-            <RobotsForm/>
-            <br/>
-            {/* <h3 className='create'>
-            </h3> */}
-            <br/>
-            <div className='textbox'>
-            <h2 class="far fa-plus-square" >Create Part</h2> 
-            <NavLink to="/Parts" exact style={link} className="fas fa-wrench">GO BACK TO PARTS</NavLink>
-            </div> 
-            <PartsForm/>
-            <br/>
-            <h3>
-            </h3>
-
-        </div>
         </Grid>
     )
 }

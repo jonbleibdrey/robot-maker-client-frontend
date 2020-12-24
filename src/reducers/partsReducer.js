@@ -5,7 +5,7 @@ export const partsReducer = (state = [], action) => {
         case 'ADD_PART':
             return[...state, action.payload]    
             default:
-                return state
+            return state
     }
 
 }

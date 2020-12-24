@@ -14,9 +14,9 @@ export class RobotsContainer extends Component {
 
   render() {
     return <div className='partrobotcontainer'>
-          <div className='containertext'>
-          <h1 className="fas fa-robot" > Robots Container</h1>
-          </div>
+            <div className='containertext'>
+              <h1 className="fas fa-robot" > Robots Container</h1>
+            </div>
           </div>;
   }
 }

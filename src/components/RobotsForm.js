@@ -17,7 +17,7 @@ export class RobotsForm extends Component {
     handleOnChange = e => {
         const {name, value} = e.target
         this.setState({
-            [name]:value
+        [name]:value
         })
     }
 
@@ -36,19 +36,15 @@ export class RobotsForm extends Component {
     render() {
         return (
             <div className='forms'>
-            <form onSubmit={this.handleOnSubmit}>
-               <TextField id="standard-basic" label="Name:"  type="text" value={this.state.name} onChange={this.handleOnChange} name='name'/>
-               <TextField id="standard-basic" label="Function:" type="text" value={this.state.function} onChange={this.handleOnChange} name='function'/>
-               <TextField id="standard-basic" label="Description:" type="text" value={this.state.description} onChange={this.handleOnChange} name='description'/>
-               <TextField id="standard-basic" label="Planet:" type="text" value={this.state.planet} onChange={this.handleOnChange} name='planet'/>
-                <br/>
-                <br/>
-               <Button  
-                variant="contained" 
-                color="white" 
-                type="submit" 
-                value='Create Robot'>create robot</Button>
-           </form>
+                <form onSubmit={this.handleOnSubmit}>
+                    <TextField id="standard-basic" label="Name:"  type="text" value={this.state.name} onChange={this.handleOnChange} name='name'/>
+                    <TextField id="standard-basic" label="Function:" type="text" value={this.state.function} onChange={this.handleOnChange} name='function'/>
+                    <TextField id="standard-basic" label="Description:" type="text" value={this.state.description} onChange={this.handleOnChange} name='description'/>
+                    <TextField id="standard-basic" label="Planet:" type="text" value={this.state.planet} onChange={this.handleOnChange} name='planet'/>
+                    <br/>
+                    <br/>
+                    <Button variant="contained" color="white" type="submit" value='Create Robot'>create robot</Button>
+                </form>
            </div>
         )
     }

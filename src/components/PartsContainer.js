@@ -15,9 +15,8 @@ export class PartsContainer extends Component {
         return (
             <div className='partrobotcontainer'>
                    <div className='containertext'>
-                <h1 className="fas fa-wrench" > Parts Container</h1>
-            
-            </div>
+                        <h1 className="fas fa-wrench" > Parts Container</h1>
+                    </div>
             </div>
         )
     }

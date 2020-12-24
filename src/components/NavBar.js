@@ -21,17 +21,13 @@ const link = {
 const NavBar = () => {
   return (
     <Grid container direction="column"  justify="center" alignItems="center">
-    <div className="navbar" >
-      
-     
-       <NavLink to='/'exact style={link} > BuildARobot.com</NavLink>
-       <NavLink to="/"exact style={link}  className="fas fa-home"></NavLink>
+      <div className="navbar" >
+        <NavLink to='/'exact style={link} > BuildARobot.com</NavLink>
+        <NavLink to="/"exact style={link}  className="fas fa-home"></NavLink>
         <NavLink to="/create" exact style={link} className="fas fa-plus"></NavLink>
         <NavLink to="/Robots" exact style={link} className="fas fa-robot"></NavLink>
         <NavLink to="/Parts" exact style={link}  className="fas fa-wrench"></NavLink>
-      
-    </div>
-   
+      </div>
     </Grid>
   );
 };

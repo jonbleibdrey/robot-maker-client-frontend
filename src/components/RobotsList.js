@@ -10,19 +10,17 @@ const RobotsList = ({ robots }) => {
     return (
         <div className='list'>
             <Grid container direction="column"  justify="center" alignItems="center">
-            <RobotsContainer />
-            <ul>
-                
-            {robots.map(robot => 
-             <Card className='partrobotlist'>
-             <li key={robot.id} >
-             <NavLink to={`/Robots/${robot.id}`} >{robot.name}</NavLink> 
-             </li>
-             </Card>
-                )}
-        
-            </ul> 
-        </Grid>
+                <RobotsContainer />
+                    <ul>    
+                        {robots.map(robot => 
+                            <Card className='partrobotlist'>
+                                <li key={robot.id} >
+                                    <NavLink to={`/Robots/${robot.id}`} >{robot.name}</NavLink> 
+                                </li>
+                            </Card>
+                         )}
+                    </ul> 
+            </Grid>
         </div>
     )
 }

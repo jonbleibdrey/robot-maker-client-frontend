@@ -11,17 +11,15 @@ const PartsList = ({parts}) => {
         <div className='list'>
             <Grid container direction="column"  justify="center" alignItems="center">
              <PartsContainer />
-            <ul>
-            
-        {parts.map(part => 
+                <ul> 
+                    {parts.map(part => 
                         <Card className='partrobotlist'>
-        <li key={part.id}>
-            <NavLink to={`/parts/${part.id}`}>{part.name}</NavLink> 
-            </li>
-                    </Card>
-       
-       )}
-            </ul>
+                            <li key={part.id}>
+                                <NavLink to={`/parts/${part.id}`}>{part.name}</NavLink> 
+                            </li>
+                        </Card>
+                    )}
+                </ul>
             </Grid>
         </div>
     )
@@ -38,18 +36,3 @@ const mapStateToProps = state => {
 
 export default connect(mapStateToProps)(PartsList)
 
-
-
-// <li key={part.id}>
-// Name of part:{part.name}
-// <br/>
-// Robot:{part.robot_id}
-// <br/>
-// Damage:{part.damage}
-// <br/>
-// Ability:{part.ability}
-// <br/>
-// Weight:{part.weight}
-// <br/>
-
-// </li>
